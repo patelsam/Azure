@@ -1,0 +1,65 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "SERVERName": {
+      "value": "AECNQERPLCG01"
+    },
+    "SERVERAdminUserName": {
+      "value": "spgadmin"
+    },
+    "SERVERAdminPassword": {
+      "value": "Password12345"
+    },
+    "SERVERWindowsOSVersion": {
+      "defaultValue": "2012-R2-Datacenter",
+      "value": "2012-R2-Datacenter"
+    },
+    "virtualNetworkName": {
+      "value": "AE-CN-N-ER-01-VNET"
+    },
+    "virtualNetworkResourceGroup": {
+      "value": "AE-CN-N-NETWORK-RG"
+    },
+    "subnetName": {
+      "value": "AE-CN-RESTRICTED-01-SUBNET"
+    },
+    "SERVERVmSize": {
+      "value": "Standard_D2_v2"
+    },
+    "StorageAccountType": {
+      "value": "Standard_LRS"
+    },
+    "availabilitySetName": {
+      "value": "null"
+    },
+
+    "SERVERNicStaticIP": {
+      "value": "10.109.129.21"
+    },
+    "storageAccountResourceGroup": {
+      "value": "AE-CN-N-ERPLINK-CLOUDGATE-RG"
+    },
+    "storageAccountName": {
+      "value": "aecnnstdblobdisks01"
+    },
+    "domainToJoin": {
+      "value": "stocklandnet.com.au"
+    },
+    "domainUsername": {
+      "value": "x_domainjoin"
+    },
+    "domainPassword": {
+      "value": "dDf5n3wgQKunY39Xq99y"
+    },
+    "ouPath": {
+      "value": "OU=ERPLink,OU=Azure,OU=Stockland Servers,DC=stocklandnet,DC=com,DC=au"
+    },
+    "domainJoinOptions": {
+      "value": 3
+    }
+
+
+
+  }
+}
