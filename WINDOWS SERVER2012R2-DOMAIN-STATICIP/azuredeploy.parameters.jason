@@ -9,20 +9,20 @@
       "value": "spgadmin"
     },
     "SERVERAdminPassword": {
-      "value": "Password12345"
+      "value": "your password"
     },
     "SERVERWindowsOSVersion": {
       "defaultValue": "2012-R2-Datacenter",
       "value": "2012-R2-Datacenter"
     },
     "virtualNetworkName": {
-      "value": "AE-CN-N-ER-01-VNET"
+      "value": "VNET name"
     },
     "virtualNetworkResourceGroup": {
-      "value": "AE-CN-N-NETWORK-RG"
+      "value": "VNET RG name"
     },
     "subnetName": {
-      "value": "AE-CN-RESTRICTED-01-SUBNET"
+      "value": "subnet"
     },
     "SERVERVmSize": {
       "value": "Standard_D2_v2"
@@ -35,25 +35,25 @@
     },
 
     "SERVERNicStaticIP": {
-      "value": "10.109.129.21"
+      "value": "x.x.x.x"
     },
     "storageAccountResourceGroup": {
-      "value": "AE-CN-N-ERPLINK-CLOUDGATE-RG"
+      "value": "Storage Account RG name"
     },
     "storageAccountName": {
-      "value": "aecnnstdblobdisks01"
+      "value": "storage account name"
     },
     "domainToJoin": {
-      "value": "stocklandnet.com.au"
+      "value": "contoso.com"
     },
     "domainUsername": {
-      "value": "x_domainjoin"
+      "value": "xusername"
     },
     "domainPassword": {
-      "value": "dDf5n3wgQKunY39Xq99y"
+      "value": "password"
     },
     "ouPath": {
-      "value": "OU=ERPLink,OU=Azure,OU=Stockland Servers,DC=stocklandnet,DC=com,DC=au"
+      "value": "OU=Azure,DC=contoso,DC=com"
     },
     "domainJoinOptions": {
       "value": 3
